@@ -35,6 +35,7 @@ class App extends Component {
 
     return (
       <div>
+        <img src="../images/you-tube.png" alt="You Tube"></img>
         <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
