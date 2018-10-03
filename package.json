@@ -1,11 +1,21 @@
 {
   "name": "you-tube-app",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew428/you-tube-app.git"
+  },
+   "author": "AndrewVC",
+   "license": "ISC",
+   "bugs": {
+     "url": "https://github.com/Andrew428/you-tube-app/issues"
+   },
+   "homepage": "https://github.com/Andrew428/you-tube-app#readme",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "youtube-api-search": "^0.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
