@@ -5,12 +5,12 @@
     "type": "git",
     "url": "git+https://github.com/Andrew428/you-tube-app.git"
   },
-   "author": "AndrewVC",
-   "license": "ISC",
-   "bugs": {
-     "url": "https://github.com/Andrew428/you-tube-app/issues"
-   },
-   "homepage": "https://github.com/Andrew428/you-tube-app#readme",
+  "author": "AndrewVC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew428/you-tube-app/issues"
+  },
+  "homepage": "https://github.com/Andrew428/you-tube-app#readme",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
