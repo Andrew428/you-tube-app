@@ -1,1 +1,5 @@
-#YouTube App
+# YouTube App
+
+### Run App:
+#### yarn
+#### yarn start
