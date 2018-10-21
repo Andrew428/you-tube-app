@@ -15,8 +15,8 @@ class App extends Component {
       videos: [],
       selectedVideo: null
     };
-
-    this.videoSearch("SkunkWorx DistroKid");
+    
+    this.videoSearch("Glitch Mob - Seeing Without Eyes(Full album)");
   }
 
   videoSearch(term) {
@@ -30,6 +30,9 @@ class App extends Component {
 
   render() {
     const videoSearch = _.debounce(term => {
+      if (term === '') {
+        term = "Glitch Mob - Seeing Without Eyes (Full album)";
+      }
       this.videoSearch(term);
     }, 300);
 

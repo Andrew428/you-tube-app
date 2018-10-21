@@ -19,6 +19,9 @@ class SearchBar extends Component {
   }
 
   onInputChange(term) {
+    /*if(term === ''){
+      term = "Glitch Mob - Seeing Without Eyes (Full album)";
+    }*/
     this.setState({ term });
     this.props.onSearchTermChange(term);
   }
