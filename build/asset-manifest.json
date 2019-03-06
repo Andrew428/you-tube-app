@@ -1,11 +1,11 @@
 {
-  "main.js": "/Andrew428/you-tube-app/static/js/main.cbc62c87.chunk.js",
-  "main.js.map": "/Andrew428/you-tube-app/static/js/main.cbc62c87.chunk.js.map",
-  "runtime~main.js": "/Andrew428/you-tube-app/static/js/runtime~main.ecce9910.js",
-  "runtime~main.js.map": "/Andrew428/you-tube-app/static/js/runtime~main.ecce9910.js.map",
-  "static/js/2.d5a5f5fe.chunk.js": "/Andrew428/you-tube-app/static/js/2.d5a5f5fe.chunk.js",
-  "static/js/2.d5a5f5fe.chunk.js.map": "/Andrew428/you-tube-app/static/js/2.d5a5f5fe.chunk.js.map",
-  "index.html": "/Andrew428/you-tube-app/index.html",
-  "precache-manifest.40ed16ac4f36d3496b586cd1046d31e1.js": "/Andrew428/you-tube-app/precache-manifest.40ed16ac4f36d3496b586cd1046d31e1.js",
-  "service-worker.js": "/Andrew428/you-tube-app/service-worker.js"
+  "main.js": "/static/js/main.cbc62c87.chunk.js",
+  "main.js.map": "/static/js/main.cbc62c87.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.d5a5f5fe.chunk.js": "/static/js/2.d5a5f5fe.chunk.js",
+  "static/js/2.d5a5f5fe.chunk.js.map": "/static/js/2.d5a5f5fe.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.b2e59e205e37310061da99ce1db7a67a.js": "/precache-manifest.b2e59e205e37310061da99ce1db7a67a.js",
+  "service-worker.js": "/service-worker.js"
 }

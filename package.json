@@ -10,19 +10,16 @@
   "bugs": {
     "url": "https://github.com/Andrew428/you-tube-app/issues"
   },
-  "homepage": "https://github.com/Andrew428/you-tube-app#readme",
+  "homepage": "/",
   "dependencies": {
-    "express": "^4.16.4",
-    "express-favicon": "^2.0.1",
-    "path": "^0.12.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^2.1.5",
-    "yarn": "^1.13.0",
+    "react-scripts": "2.0.4",
     "youtube-api-search": "^0.0.5"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build && node server.js",
+    "start:dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
