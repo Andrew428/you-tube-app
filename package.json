@@ -12,9 +12,12 @@
   },
   "homepage": "/",
   "dependencies": {
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4",
+    "react-scripts": "^2.1.5",
     "youtube-api-search": "^0.0.5"
   },
   "scripts": {
