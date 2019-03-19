@@ -19,6 +19,3 @@ To run it locally -
 
 ### Note: 
   UI uses proxy to reach server on port 5000
-
-
-

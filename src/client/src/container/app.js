@@ -1,11 +1,9 @@
 import _ from "lodash";
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import YTSearch from "youtube-api-search";
-import SearchBar from "./components/search_bar";
-import VideoList from "./components/video_list";
-import VideoDetail from "./components/video_detail";
-const API_KEY = "AIzaSyCGAZXpuBmH12h5HqA96cx-0kui98qjn3s";
+
+import SearchBar from "../components/search_bar";
+import VideoList from "../components/video_list";
+import VideoDetail from "../components/video_detail";
 
 class App extends Component {
   constructor(props) {
@@ -19,13 +17,24 @@ class App extends Component {
     this.videoSearch("Glitch Mob - Seeing Without Eyes(Full album)");
   }
 
-  videoSearch(term) {
-    YTSearch({ key: API_KEY, term: term }, videos => {
-      this.setState({
-        videos: videos,
-        selectedVideo: videos[0]
-      });
-    });
+  async videoSearch (term) {
+
+    fetch(`/api/youtube/search/${term}`).then(async response  =>{
+      const body = await response.json();
+      console.log(body.videos.items);
+      const videos = body.videos.items;
+      if (videos.length > 0) {
+        this.setState({
+          videos: videos,
+          selectedVideo: videos[0]
+        });
+      }else{
+        this.setState({
+          videos: [],
+          selectedVideo: null
+        });  
+      }
+    });    
   }
 
   render() {
@@ -50,4 +59,5 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+
+export default App;

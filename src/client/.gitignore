@@ -2,18 +2,15 @@
 
 # dependencies
 /node_modules
+package-lock.json
+yarn.lock
 
 # testing
 /coverage
 
-# production
-#/build
 
-# Uncomment for heroku deploy
-src/*
-public/*
-build/static/css/*.map
-build/static/js/*.map
+# production
+build
 
 # misc
 .DS_Store

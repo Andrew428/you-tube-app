@@ -1,28 +1,20 @@
 {
-  "name": "you-tube-app",
+  "name": "my-you-tube-app",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andrew428/you-tube-app.git"
+    "url": "git+https://github.com/Andrew428/my-you-tube-app.git"
   },
   "author": "AndrewVC",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Andrew428/you-tube-app/issues"
-  },
-  "homepage": "/",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "express-favicon": "^2.0.1",
     "path": "^0.12.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^2.1.5",
-    "youtube-api-search": "^0.0.5"
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
-    "start": "node server.js",
-    "start:dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,6 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:5000/",
   "browserslist": [
     ">0.2%",
     "not dead",
